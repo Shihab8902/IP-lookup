@@ -1,0 +1,46 @@
+.body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+.heading{
+    color: rgb(4, 170, 4);
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 3rem;
+    letter-spacing: 3px;
+}
+.form{
+    margin-top: 80px;
+}
+.input{
+    width: 500px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid  rgb(4, 170, 4);;
+    background-color: transparent;
+    color: magenta;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Share Tech Mono', monospace;
+}
+.input::placeholder{
+    color: rgb(4, 170, 4);
+    font-family: 'Share Tech Mono', monospace;
+}
+.button{
+    width: 80px;
+    height: 35px;
+    margin-left: 30px;
+    background-color: chartreuse;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: red;
+    color: white;
+}

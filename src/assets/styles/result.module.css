@@ -1,0 +1,42 @@
+.body{
+    color: rgb(4, 170, 4);
+}
+.loaderContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.loader{
+   width: 100px;
+   height: 100px;
+   animation: spinner 2s linear infinite;
+   border-radius: 50%;
+   border-left: 3px solid rgb(4, 170, 4);
+   border-right: 3px solid blue;
+   border-bottom:  3px solid navy;
+  }
+
+  @keyframes spinner{
+    0%{
+      transform: rotate(0deg);
+    }
+  
+  
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+
+  .data{
+    font-weight: bold;
+    line-height: 40px;
+    font-size: 20px;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  span{
+    color: red;
+  }
